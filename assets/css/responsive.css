@@ -1,0 +1,462 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .Hero-area img.ex-bac { 
+        bottom: 15%; 
+        width: 1190px; 
+    }
+    .owl-nav div { 
+        left: -90px;
+    }
+    .owl-nav .owl-next { 
+        right: -90px;
+    }
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .Hero-area img.ex-bac { 
+        bottom: 18%; 
+        width: 955px; 
+    }
+    .owl-nav div { 
+        left: -70px;
+    }
+    .owl-nav .owl-next { 
+        left: -70px;
+    }
+    .anglesThree { 
+        width: 120px; 
+        bottom: 45px;
+        right: -115px;
+    }
+    .right .img-blk .anglesThree {
+        left: -115px;
+    }
+    .header-featurs a { 
+        font-size: 9px;
+        padding: 10px; 
+        height: 40px;
+    }
+    .header-featurs a img { 
+        width: 24px;
+        margin-right: 7px;
+    }
+    .menu-area nav ul li a {
+        font-size: 15px; 
+        margin-left: 17px; 
+    }
+    .footer-form form button {
+        min-width: 100px; 
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .Hero-area img.ex-bac { 
+        bottom: 20%; 
+        width: 100%; 
+        clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
+    } 
+    .angles, .anglesTwo, .anglesThree{
+        display: none;
+    }
+    .img-blk {
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .right .img-blk { 
+        padding: 0px 0px 0px 0px; 
+    }
+    .bussness-blk {
+        text-align: left !IMPORTANT;
+    }
+    .bussness-form form h2 {
+        font-size: 26px; 
+        line-height: 24px;
+    }
+    .bussness-form form p {
+        font-size: 20px;
+    }
+    .bussness-form form .form-controls input { 
+        height: 50px;
+        padding: 10px; 
+    }
+    .bussness-form form .form-controls .price span { 
+        display: none;
+    }
+    .bussness-form form .form-controls .price { 
+        padding-left: 0px;
+    }
+    .bussness-form form .form-controls button {
+        max-width: 140px;
+        min-width: 140px;
+        height: 50px; 
+    } 
+    .bussness-form form .form-controls .nice-select { 
+        height: 50px;
+        line-height: 50px; 
+        padding-left: 10px;
+    }
+
+    .nice-select:after {  
+        right: 15px; 
+    }
+    .table td span { 
+        font-size: 12px;
+    }
+    .table td {  
+        font-size: 14px; 
+    }
+    .table thead th { 
+        font-size: 13px;
+    }
+    .table td:nth-child(2) a {
+        padding: 0 10px;
+        font-size: 10px;
+        line-height: 30px; 
+    }
+    .theme-btn {
+        padding: 0px 25px; 
+        height: 55px; 
+        line-height: 55px; 
+        font-size: 17px;
+    }
+    .contents {
+        width: 500px; 
+    } 
+    .contents h3 {
+        font-size: 32px; 
+        margin-bottom: 20px;
+    }
+    .contents a.theme-btn {
+        margin-top: 15px;
+    } 
+    .choice-area a.theme-btn {
+        margin-top: 30px;
+    }
+    .Hero-area { 
+        padding-top: 390px; 
+    } 
+    .main-tble{
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .main-tble table {
+        width: 850px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .Hero-area img.ex-bac {
+        top: 205px;
+        width: 90%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .angles, .anglesTwo, .anglesThree{
+        display: none;
+    }
+    .img-blk {
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 10px;
+    }
+    .right .img-blk { 
+        padding: 0px 0px 0px 0px; 
+    }
+    .bussness-blk {
+        text-align: left !IMPORTANT;
+    }
+    .bussness-form form h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .bussness-area {
+        padding: 60px 0;
+    }
+    .bussness-area .left.mb-100 {
+        margin-bottom: 30px;
+    }
+    .bussness-form form p {
+        font-size: 15px;
+    }
+    .bussness-form form .form-controls input {
+        height: 40px;
+        padding: 0;
+        font-size: 15px;
+        border: none;
+        border-bottom: 1px solid #27b7e4;
+    }
+    .bussness-form form .form-controls .price span { 
+        display: none;
+    }
+    .bussness-form form .form-controls .price { 
+        padding-left: 0px;
+    }
+    .bussness-form form .form-controls button {
+        max-width: 140px;
+        min-width: 140px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .bussness-form form .form-controls .nice-select {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 0;
+        border: none;
+        border-bottom: 1px solid #27b7e4;
+    }
+    .nice-select:after {  
+        right: 15px; 
+    }
+    .table td span { 
+        font-size: 12px;
+    }
+    .table td {  
+        font-size: 14px; 
+    }
+    .table thead th { 
+        font-size: 13px;
+    }
+    .table td:nth-child(2) a {
+        padding: 0 10px;
+        font-size: 10px;
+        line-height: 30px; 
+    }
+    .theme-btn {
+        padding: 0px 15px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .monetization-area {
+        padding: 60px 0; 
+    }
+    .listings-area a.theme-btn svg {
+        width: 26px;
+        margin-left: 15px;
+    }
+    .newsLatter-area .newslatter-form h2 {
+        font-size: 24px;
+        margin-bottom: 10px; 
+    }
+    .newsLatter-area .newslatter-form p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .newsLatter-area .newslatter-form form input {
+        height: 40px; 
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .newsLatter-area .newslatter-form form button {
+        min-width: 180px; 
+        height: 40px; 
+        font-size: 15px;
+    }
+    .chooses-area {
+        padding: 40px 0; 
+    }
+    .section-title h3 {
+        font-size: 28px;
+        line-height: 38px; 
+    }
+    .img-blk img { 
+        height: auto; 
+    }
+    .bussness-blk {
+        padding: 30px 20px !important;
+    }
+    .bussness-blk h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .bussness-blk p {
+        margin-bottom: 0px;
+        font-size: 15px; 
+    }
+    .chooses-lists li h3 {
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+    .chooses-lists li h3 span { 
+        font-size: 15px; 
+    }
+ a.theme-btn img {
+        margin-left: 10px;
+    }
+    .contents {
+        width: 100%;
+        position: unset; 
+        transform: translate(0);
+    }
+    .explores-area {
+        padding: 60px 0;
+    }
+    .contents h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .explore img { 
+        display: none; 
+    }
+    .contents a.theme-btn {
+        margin-top: 15px;
+    } 
+    .choice-area a.theme-btn {
+        margin-top: 30px;
+    }
+    .Hero-area { 
+        padding-top: 320px; 
+    }
+    .main-tble{
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .main-tble table {
+        width: 850px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .table td div { 
+        height: 70px; 
+    }
+    .bussness-form form .form-controls {
+        display: block; 
+        border: none;
+        border-right: none;
+    }
+    .listings-area a.theme-btn {
+        height: auto;
+        width: 100%;
+        line-height: 24px;
+        padding: 5px 10px;
+    }
+    .newsLatter-area .newslatter-form form {
+        width: 100%; 
+        border: none; 
+        display: block;
+    }
+    .newsLatter-area .newslatter-form { 
+        padding: 0; 
+    }
+    .bussness-form { 
+        padding: 30px 10px;
+        padding-bottom: 30px; 
+    }
+    .overView-blk img {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    .overView-blk h4 {
+        font-size: 28px;
+        line-height: 33px; 
+        margin: 0;
+    }
+    .overView-blk p { 
+        font-size: 18px; 
+    }
+    .overView-blk {
+        margin-top: 50px;
+    } 
+    .overViews-area {
+        padding-top: 0px;
+    }
+    .choice-area {
+        padding: 60px 0; 
+    }
+    .choice-area .section-title h3 { 
+        margin-bottom: 0;
+    }
+    .choice-area a.theme-btn {
+        margin-top: 0px;
+    }
+    .owl-item { 
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .listings-area {
+        padding: 60px 0;
+    }
+    .footer-area p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .footer-links .links ul li { 
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .footer-links {
+        margin: 50px 0;
+    }
+    .footer-area { 
+        padding-top: 60px;
+    }
+    .footer-form form button {
+        min-width: 100px;
+        height: 40px;
+        background: #27B7E4; 
+        font-size: 14px;
+    } 
+    .footer-form a {
+        height: 40px;
+        width: 40px; 
+        line-height: 35px; 
+        border-radius: 50%;
+        font-size: 17px;
+        padding: 0;
+        margin-right: 15px;
+        margin-top: 20px; 
+    }
+    .copyright-area { 
+        margin-top: 50px;
+    }
+    .footer-form form input { 
+        height: 40px; 
+    }
+
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.Hero-area img.ex-bac {
+    top: 180px;
+    width: 415px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+}
